@@ -1,0 +1,46 @@
+h1 {
+    font-family: 'Creepster', cursive;
+    color:orangered;
+    position: relative;
+    background-color: black;
+}
+
+.uno {
+    color: white;
+    background-color: black;
+}
+
+.dos {
+    color: white;
+    background-color: black;
+}
+
+.tres {
+    color: white;
+    background-color: black;
+}
+
+.cuatro {
+    color: white;
+    background-color: black;
+}
+
+.imgWitch {
+    width: 100px;
+    height: auto;
+}
+
+.imgGhost{
+    width: 100px;
+    height: auto;
+}
+
+.imgPumpkin{
+    width: 100px;
+    height: auto;
+}
+
+.imgCandy{
+    width: 100px;
+    height: auto;
+}

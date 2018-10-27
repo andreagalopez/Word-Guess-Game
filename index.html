@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title> HALLOWEEN HANGMAN </title>
+
+  <link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets1/css/style.css">
+
+</head>
+
+<body>
+
+  <div id="main-container">
+ 
+      <h1> HALLOWEEN HANGMAN </h1>
+        
+        
+  
+        <button id="here" type="button" class="btn btn-warning">Press HERE to get started</button>
+
+        <p class = "uno">  .   </p>
+        <p  id="pictureHelp"></p>
+        <img class = "imgWitch" src = "assets1/images/0.png"/>
+        <img class = "imgGhost" src = "assets1/images/1.png"/>
+        <img class = "imgPumpkin" src = "assets1/images/2.png"/>
+        <img class = "imgCandy" src = "assets1/images/3.png"/>
+
+        <p class = "dos"> Current word: </p>
+
+        <p id="currentWord"></p>
+
+
+        <p class = "tres" > Number of letters remaining: </p>
+        <p id="lettersRem"></p>
+
+        
+        <p class = "cuatro"> Letters guessed: </p>
+        <p id="lettersGuessed"></p>
+
+        <audio controls id = "myAudio"></audio>
+        <source src="assets1/happy_halloween.mp3" type="audio/mp3">
+        
+        
+  </div>
+
+  <footer>
+
+  </footer>
+
+  <script src="assets1/javascript/game.js"></script>
+
+</body>
+
+
+</html>
+
